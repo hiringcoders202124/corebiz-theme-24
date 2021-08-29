@@ -1,0 +1,38 @@
+.heading {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 6rem;
+    max-width: 50rem;
+    color: #fff;
+    font-family: "Circular Std Medium", sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.paragraph--title {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 6rem;
+    max-width: 50rem;
+    color: #fff;
+    font-family: "Circular Std Medium", sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+    line-height: 0.8;
+    margin: 0 0 3rem;
+}
+.paragraph--about {
+    padding-left: 100px;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+}
+
+.container--title {
+    margin-top: 13rem;
+}

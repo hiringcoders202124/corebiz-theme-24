@@ -1,0 +1,20 @@
+.buttonText {
+    position: absolute;
+    right: -100%;
+    color: #fff;
+    margin-top: -0.5rem;
+}
+
+.globeIcon {
+    position: absolute;
+    right: 200%;
+    color: #fff;
+    margin-top: -0.5rem;
+}
+
+.container {
+    left: -30%;
+    height: 40%;
+    top: 65px;
+    /*background-color:black;*/
+}

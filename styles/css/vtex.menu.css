@@ -1,0 +1,28 @@
+.menuContainerNav--menu {
+    left: 0%;
+    height: 40%;
+    top: 50px;
+    position: relative;
+    z-index: 2;
+    background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
+    /*background-color:black;*/
+}
+
+.menuContainer {
+    /*background-color:black;*/
+    background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
+}
+
+.styledLinkContent {
+    color: #fff;
+    padding-top: 2.5rem;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: center;
+}

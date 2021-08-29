@@ -1,0 +1,11 @@
+.flexRowContent {
+    position: fixed;
+    z-index: 1;
+    /*background-color:black;*/
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent);
+}
+
+.flexCol {
+    position: center;
+    /*background-color:black;*/
+}
