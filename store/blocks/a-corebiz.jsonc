@@ -1,0 +1,49 @@
+{
+    "store.custom#a-corebiz": {
+        "blocks": [
+            "store.custom#about-us",
+            "flex-layout.row#about-us",
+            "flex-layout.col#img",
+            "flex-layout.col#text-about-us",
+            "image#banner-home"
+        ]
+    },
+    "store.custom#about-us": {
+        "blocks": ["flex-layout.row#about-us"]
+    },
+    "flex-layout.row#about-us": {
+        "children": ["flex-layout.col#text-about-us", "flex-layout.col#img" ]
+    },
+    "flex-layout.col#img": {
+        "children": ["image#banner-home" ]
+    },
+    "flex-layout.col#text-about-us": {
+        "children": ["rich-text#title-about-us", "rich-text#about-us"],
+        "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-about-us": {
+        "props": {
+        "text": " a corebiz",
+        "blockClass": "title"
+        }
+    },"rich-text#about-us": {
+        "props": {
+          "text": "**conheça um pouco de nossa** \n **história, nosso crescimento e** \n **nossa cultura.**",
+        "blockClass": "about"
+        }
+    },
+
+    "image#banner-home": {
+        "props": {
+        "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
+          //"url": "assets/banner-home.png",
+        "maxHeight": " ",
+        "maxWidth": "5000%" ,
+          //"sizes":"70rem",
+        "blockClass": "banner"
+        }
+    }
+}

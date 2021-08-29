@@ -1,11 +1,12 @@
 {
-  "vendor": "vtex",
+  "vendor": "hiringcoders202124",
   "name": "minimumtheme",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "assets": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -44,7 +45,9 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.category-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
