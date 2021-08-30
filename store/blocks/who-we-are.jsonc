@@ -5,7 +5,10 @@
       "rich-text#subtitle",
       //"flex-layout.row#seeMore",
       "flex-layout.row#historyCard"      
-    ]
+    ],
+    "parent": {
+      "header": "header#vazio"
+    }
   },
   "rich-text#title":{
     "props":{

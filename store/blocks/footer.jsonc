@@ -447,5 +447,10 @@
         "url":"/" 
       }
     } 
+  },
+  "footer#vazio": {
+    "blocks":[
+      
+    ]
   }
 }
