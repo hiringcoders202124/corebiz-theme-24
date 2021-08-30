@@ -1,8 +1,7 @@
 {
     "store.custom#worldwide": { 
     "blocks": [
-        "flex-layout.row#worldwide"
-         
+        "flex-layout.row#worldwide"     
     ]
     },
     "flex-layout.row#worldwide": {

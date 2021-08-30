@@ -1,461 +1,456 @@
-{"footer": {
-      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  /* ==== MOBILE ==== */
+  "footer-layout.mobile":{
+    "children": [
+      "flex-layout.row#block-image-mobile", /* ROW COM A IMAGEM NO FOOTER */
+      "flex-layout.row#logo-footer-mobile", /* LOGO-FOOTER COREBIZ */
+      "flex-layout.row#escritorios-br-ar-mobile", /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS BRASIL E ARGENTINA */
+      "flex-layout.row#escritorios-mx-ch-mobile", /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS MEXICO E CHILE */
+      "flex-layout.row#seguir-mobile", /* SIGA A GENTE */
+      "flex-layout.row#redes-sociais-mobile", /* ROW COM AS REDES SOCIAIS */
+      "flex-layout.row#botao-topo-mobile",
+      "flex-layout.row#idiomas-mobile",
+      "flex-layout.row#direitos-mobile"
+    ],
+    "props": {
+      "blockClass": "mobile"
     }
+  },
+  "flex-layout.row#block-image-mobile": {
+    "children": ["flex-layout.col#bloco-vazio-mobile", "flex-layout.col#image-footer-mobile"],
+    "props": {
+      "blockClass": "white-block-mobile"
+    }
+  },
+  "flex-layout.col#bloco-vazio-mobile": {
+  },
+  "flex-layout.col#image-footer-mobile": { /* IMAGEM DAS LUMINARIAS NO FOOTER */
+    "children": ["image#footer-mobile"],
+    "props": {
+    //  "width": "80%",
+      "blockClass": "image-footer-mobile"
+    }
+  },  
+  "image#footer-mobile": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background--mobile.jpg"
+    }
+  },
+  "flex-layout.row#logo-footer-mobile": { /* LOGO-FOOTER COREBIZ */
+    "children": ["image#logo-footer-mobile"],
+    "props": {
+      "blockClass": "logo-footer-mobile"
+    }
+  },
+  "image#logo-footer-mobile": {
+    "props": {
+      "width": 80,
+      "src": "assets/logo-footer.jpg",
+      "link": {
+        "url": "https://www.corebiz.ag/pt/"
+      } 
+    } 
+  },
+  "flex-layout.row#escritorios-br-ar-mobile": { /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS BRASIL E ARGENTINA */
+    "children": [
+      "flex-layout.col#brasil",
+      "flex-layout.col#argentina"
+    ],
+    "props": {
+      "verticalAlign": "CENTER",
+      "horizontalAlign": "LEFT",
+      "blockClass": "escritorios-mobile"
+    }
+  },
+  "flex-layout.row#escritorios-mx-ch-mobile": { /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS MEXICO E CHILE */
+    "children": [
+      "flex-layout.col#mexico",
+      "flex-layout.col#chile"
+    ],
+    "props": {
+      "verticalAlign": "CENTER",
+      "horizontalAlign": "LEFT",
+      "blockClass": "escritorios-mobile2"
+    }
+  },
+  "flex-layout.row#seguir-mobile": {
+    "children": ["rich-text#seguir-mobile"],
+    "props": {
+      "blockClass": "seguir-mobile"
+    }
+  },
+  "rich-text#seguir-mobile": {
+    "props": {
+      "blockClass": "texto-seguir",
+      "textPosition": "CENTER",
+      "text":" ##### Siga a gente"   
+    }
+  },
+  "flex-layout.row#redes-sociais-mobile": { /* ROW COM AS REDES SOCIAIS */
+    "children": ["flex-layout.col#instagram", "flex-layout.col#facebook", "flex-layout.col#linkedin"],
+    "props": {
+      "blockClass": "social-mobile",
+      "horizontalAlign": "CENTER",
+      "verticalAlign": "CENTER"
+    }
+  },
+  "flex-layout.row#idiomas-mobile": {
+    "children": ["menu#idiomas"],
+    "props": {
+      "blockClass": "idiomas-mobile",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "menu#idiomas-mobile": {
+    "props": {
+      "blockClass": "menu-idiomas",
+      "items": [
+        {
+          "id": "pt",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "pt",
+            "text": "pt"
+          }
+        },
+        {
+          "id": "en",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us-en",
+            "noFollow": false,
+            "tagTitle": "en",
+            "text": "en"
+          }
+        },
+        {
+          "id": "es",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us-es",
+            "noFollow": false,
+            "tagTitle": "es",
+            "text": "es"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.row#direitos-mobile": { /* TEXTO DIREITOS RESERVADOS */
+    "children": ["rich-text#direitos"],
+    "props": {
+      "blockClass": "direitos-mobile"
+    }
+  },
+  "flex-layout.row#botao-topo-mobile": {
+    "children": ["image#botao-topo-mobile"],
+    "props": {
+      "blockClass": "botao-topo-mobile"
+    }
+  },
+  "image#botao-topo-mobile": {
+    "props": {
+      "width": 40,
+      "src": "assets/topo-mobile.jpg",
+      "link": { 
+        "url":"/" 
+      }
+    } 
+  },
+
+/* ==== DESKTOP ==== */
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#block-image",
+      "flex-layout.row#escritorios", /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS E LOGO */
+      "flex-layout.row#social-idioma" /* ROW COM AS REDES SOCIAIS e ESCOLHA DE IDIOMA  e DIREITOS RESERVADOS*/
+    ],
+    "props": {
+      "blockClass": "desktop"
+    }
+  },
+  "flex-layout.row#block-image": {
+    "children": ["flex-layout.col#bloco-vazio", "flex-layout.col#image-footer"],
+    "props": {
+      "blockClass": "white-block"
+    }
+  },
+  "flex-layout.col#bloco-vazio": {
+    "props": {
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#image-footer": { /* IMAGEM DAS LUMINARIAS NO FOOTER */
+    "children": ["image#footer"],
+    "props": {
+      "width": "70%"
+    }
+  },  
+  "image#footer": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background.jpg",
+      "blockClass": "image-footer"
+
+    }
+  },
+  "flex-layout.row#escritorios": { /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS E LOGO */
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#spacer",
+      "flex-layout.col#brasil",
+      "flex-layout.col#spacer",
+      "flex-layout.col#argentina",
+      "flex-layout.col#spacer",
+      "flex-layout.col#mexico",
+      "flex-layout.col#spacer",
+      "flex-layout.col#chile",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-footer",
+      "flex-layout.col#spacer",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "verticalAlign": "CENTER",
+      "horizontalAlign": "CENTER",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "escritorios"
+    }
+  },
+  "flex-layout.col#brasil": { /* ESCRITORIO BRASIL */
+    "children": ["rich-text#brasil"]
+  },
+  "rich-text#brasil": {
+    "props": {
+      "blockClass": "texto-footer",
+      "textPosition": "LEFT",
+      "text":" ###### Brasil \n Avenida Andrômeda, 2000.\n Bloco 6 e 8 Alphaville SP \n \n R. Ifigenia Maria de Oliveira,\n 3793 - Jr. Piratininga Franca SP"   
+    }
+  },
+  "flex-layout.col#argentina": { /* ESCRITORIO ARGENTINA */
+    "children": ["rich-text#argentina"]
+  },
+  "rich-text#argentina": {
+    "props": {
+      "blockClass": "texto-footer",
+      "textPosition": "RIGHT",
+      "text":" ##### Argentina \n Soler 5518, 3 Piso C1425BYF\n Palermo Hollywood CABA"   
+    }
+  },
+  "flex-layout.col#mexico": { /* ESCRITORIO MEXICO */
+    "children": ["rich-text#mexico"]
+  },
+  "rich-text#mexico": {
+    "props": {
+      "blockClass": "texto-footer",
+      "textPosition": "LEFT",
+      "text":" ##### Mexico \n Blvd. Miguel de Cervantes\n Saavedra 169, Granada, Miguel\n Hidalgo, 11520 Ciudad de\n México, CDMX"   
+    }
+  },
+  "flex-layout.col#chile": { /* ESCRITORIO CHILE */
+    "children": ["rich-text#chile"]
+  },
+  "rich-text#chile": {
+    "props": {
+      "blockClass": "texto-footer",
+      "textPosition": "RIGHT",
+      "text":" ##### Chile \n Roberto del Río 1137,\n Providencia."   
+    }
+  },
+   "flex-layout.col#logo-footer":{ /* COL COM A IMAGEM DO LOGO */
+      "children": ["image#logo-footer"],
+      "props": {
+        "blockClass": "logo-footer"
+      }
+  },
+  "image#logo-footer": { /* LOGO-FOOTER COREBIZ */
+    "props": {
+      "width": 140,
+      "src": "assets/logo-footer.jpg",
+      "link": { 
+        "url":"https://www.corebiz.ag/pt/about/" 
+      }
+    } 
+  },
+  "flex-layout.row#social-idioma": { /* ROW COM A PARTE DAS REDES SOCIAIS, MENU IDIOMAS E DIREITOS AUTORAIS */
+    "children": [
+      "flex-layout.col#social-seguir", 
+      "flex-layout.col#idiomas",
+      "flex-layout.col#botao-topo"
+    ],
+    "props": {
+      "blockClass": "social-idioma",
+      "verticalAlign": "CENTER",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "flex-layout.col#social-seguir": { /* PARTE DO TEXTO SIGA A GENTE E DAS REDES SOCIAIS */
+    "children": ["flex-layout.row#seguir", "flex-layout.row#redes-sociais"],
+    "props": {
+      "blockClass": "social-seguir",
+      "width": "30%"
+    }
+  },
+  "flex-layout.row#seguir": {
+    "children": ["rich-text#seguir"]
+  },
+  "rich-text#seguir": {
+    "props": {
+      "blockClass": "texto-seguir",
+      "textPosition": "LEFT",
+      "text":" ##### Siga a gente"   
+    }
+  },
+  "flex-layout.row#redes-sociais": { /* ROW COM AS REDES SOCIAIS */
+    "children": ["flex-layout.col#instagram", "flex-layout.col#facebook", "flex-layout.col#linkedin"],
+    "props": {
+      "blockClass": "social",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "flex-layout.col#instagram": { /* INSTAGRAM */
+    "children": ["image#instagram"]
+  },
+  "image#instagram": {
+    "props": {
+      "width": 20,
+      "src": "assets/instagram.svg",
+      "link": { 
+        "url":"https://www.instagram.com/corebizag/" 
+      }
+    } 
+  },
+  "flex-layout.col#facebook": { /* FACEBOOK */
+    "children": ["image#facebook"],
+    "props": {
+      "blockClass": "image-facebook"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "width": 20,
+      "src": "assets/facebook.svg",
+      "link": { 
+        "url":"https://www.facebook.com/corebiz.ag/" 
+      }
+    } 
+  },
+  "flex-layout.col#linkedin": { /* LINKEDIN */
+    "children": ["image#linkedin"]
+  },
+  "image#linkedin": {
+    "props": {
+      "width": 20,
+      "src": "assets/linkedin.svg",
+      "link": { 
+        "url":"https://www.linkedin.com/company/corebiz-brasil/" 
+      }
+    } 
+  },
+  "flex-layout.col#idiomas": { /* MENU IDIOMAS E TEXTO DIREITOS RESERVADOS */
+    "children": ["flex-layout.row#idiomas", "flex-layout.row#direitos"],
+    "props": {
+      "width": "65%",
+      "blockClass": "idiomas-direitos"
+      
+    }
+  },
+  "flex-layout.row#idiomas": { /* MENU IDIOMAS */
+    "children": ["menu#idiomas"],
+    "props": {
+      "blockClass": "idiomas",
+      "horizontalAlign": "LEFT"
+    }
+  },
+  "menu#idiomas": {
+    "props": {
+      "blockClass": "menu-idiomas",
+      "items": [
+        {
+          "id": "pt", /* PORTUGUES */
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "pt",
+            "text": "pt"
+          }
+        },
+        {
+          "id": "en", /* INGLES */
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us-en",
+            "noFollow": false,
+            "tagTitle": "en",
+            "text": "en"
+          }
+        },
+        {
+          "id": "es", /* ESPANHOL */
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us-es",
+            "noFollow": false,
+            "tagTitle": "es",
+            "text": "es"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.row#direitos": { /* TEXTO DIREITOS RESERVADOS */
+    "children": ["rich-text#direitos"]
+  },
+  "rich-text#direitos": { 
+    "props": {
+      "blockClass": "texto-direitos",
+      "textPosition": "LEFT",
+      "text": "direitos reservados.corebiz 2021"   
+    }
+  },
+  "flex-layout.col#botao-topo": {
+    "children": ["image#botao-topo"],
+    "props": {
+      "width": "5%",
+      "blockClass": "botao-topo"
+    }
+  },
+  "image#botao-topo": {
+    "props": {
+      "width": 40,
+      "src": "assets/topo-mobile.jpg",
+      "link": { 
+        "url":"/" 
+      }
+    } 
+  },
+  "footer#vazio": {
+    "blocks":[
+      
+    ]
   }
-
-// {
-//   "footer": {
-//     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-//   },
-//   /* ==== MOBILE ==== */
-//   "footer-layout.mobile":{
-//     "children": [
-//       "flex-layout.row#block-image-mobile", /* ROW COM A IMAGEM NO FOOTER */
-//       "flex-layout.row#logo-footer-mobile", /* LOGO-FOOTER COREBIZ */
-//       "flex-layout.row#escritorios-br-ar-mobile", /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS BRASIL E ARGENTINA */
-//       "flex-layout.row#escritorios-mx-ch-mobile", /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS MEXICO E CHILE */
-//       "flex-layout.row#seguir-mobile", /* SIGA A GENTE */
-//       "flex-layout.row#redes-sociais-mobile", /* ROW COM AS REDES SOCIAIS */
-//       "flex-layout.row#botao-topo-mobile",
-//       "flex-layout.row#idiomas-mobile",
-//       "flex-layout.row#direitos-mobile"
-//     ],
-//     "props": {
-//       "blockClass": "mobile"
-//     }
-//   },
-//   "flex-layout.row#block-image-mobile": {
-//     "children": ["flex-layout.col#bloco-vazio-mobile", "flex-layout.col#image-footer-mobile"],
-//     "props": {
-//       "blockClass": "white-block-mobile"
-//     }
-//   },
-//   "flex-layout.col#bloco-vazio-mobile": {
-//   },
-//   "flex-layout.col#image-footer-mobile": { /* IMAGEM DAS LUMINARIAS NO FOOTER */
-//     "children": ["image#footer-mobile"],
-//     "props": {
-//     //  "width": "80%",
-//       "blockClass": "image-footer-mobile"
-//     }
-//   },  
-//   "image#footer-mobile": {
-//     "props": {
-//       "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background--mobile.jpg"
-//     }
-//   },
-//   "flex-layout.row#logo-footer-mobile": { /* LOGO-FOOTER COREBIZ */
-//     "children": ["image#logo-footer-mobile"],
-//     "props": {
-//       "blockClass": "logo-footer-mobile"
-//     }
-//   },
-//   "image#logo-footer-mobile": {
-//     "props": {
-//       "width": 80,
-//       "src": "assets/logo-footer.jpg",
-//       "link": {
-//         "url": "https://www.corebiz.ag/pt/"
-//       } 
-//     } 
-//   },
-//   "flex-layout.row#escritorios-br-ar-mobile": { /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS BRASIL E ARGENTINA */
-//     "children": [
-//       "flex-layout.col#brasil",
-//       "flex-layout.col#argentina"
-//     ],
-//     "props": {
-//       "verticalAlign": "CENTER",
-//       "horizontalAlign": "LEFT",
-//       "blockClass": "escritorios-mobile"
-//     }
-//   },
-//   "flex-layout.row#escritorios-mx-ch-mobile": { /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS MEXICO E CHILE */
-//     "children": [
-//       "flex-layout.col#mexico",
-//       "flex-layout.col#chile"
-//     ],
-//     "props": {
-//       "verticalAlign": "CENTER",
-//       "horizontalAlign": "LEFT",
-//       "blockClass": "escritorios-mobile2"
-//     }
-//   },
-//   "flex-layout.row#seguir-mobile": {
-//     "children": ["rich-text#seguir-mobile"],
-//     "props": {
-//       "blockClass": "seguir-mobile"
-//     }
-//   },
-//   "rich-text#seguir-mobile": {
-//     "props": {
-//       "blockClass": "texto-seguir",
-//       "textPosition": "CENTER",
-//       "text":" ##### Siga a gente"   
-//     }
-//   },
-//   "flex-layout.row#redes-sociais-mobile": { /* ROW COM AS REDES SOCIAIS */
-//     "children": ["flex-layout.col#instagram", "flex-layout.col#facebook", "flex-layout.col#linkedin"],
-//     "props": {
-//       "blockClass": "social-mobile",
-//       "horizontalAlign": "CENTER",
-//       "verticalAlign": "CENTER"
-//     }
-//   },
-//   "flex-layout.row#idiomas-mobile": {
-//     "children": ["menu#idiomas"],
-//     "props": {
-//       "blockClass": "idiomas-mobile",
-//       "horizontalAlign": "CENTER"
-//     }
-//   },
-//   "menu#idiomas-mobile": {
-//     "props": {
-//       "blockClass": "menu-idiomas",
-//       "items": [
-//         {
-//           "id": "pt",
-//           "type": "custom",
-//           "iconId": null,
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/",
-//             "noFollow": false,
-//             "tagTitle": "pt",
-//             "text": "pt"
-//           }
-//         },
-//         {
-//           "id": "en",
-//           "type": "custom",
-//           "iconId": null,
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/about-us-en",
-//             "noFollow": false,
-//             "tagTitle": "en",
-//             "text": "en"
-//           }
-//         },
-//         {
-//           "id": "es",
-//           "type": "custom",
-//           "iconId": null,
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/about-us-es",
-//             "noFollow": false,
-//             "tagTitle": "es",
-//             "text": "es"
-//           }
-//         }
-//       ]
-//     }
-//   },
-//   "flex-layout.row#direitos-mobile": { /* TEXTO DIREITOS RESERVADOS */
-//     "children": ["rich-text#direitos"],
-//     "props": {
-//       "blockClass": "direitos-mobile"
-//     }
-//   },
-//   "flex-layout.row#botao-topo-mobile": {
-//     "children": ["image#botao-topo-mobile"],
-//     "props": {
-//       "blockClass": "botao-topo-mobile"
-//     }
-//   },
-//   "image#botao-topo-mobile": {
-//     "props": {
-//       "width": 40,
-//       "src": "assets/topo-mobile.jpg",
-//       "link": { 
-//         "url":"/" 
-//       }
-//     } 
-//   },
-
-// /* ==== DESKTOP ==== */
-//   "footer-layout.desktop": { 
-//     "children": [
-//       "flex-layout.row#block-image",
-//       "flex-layout.row#escritorios", /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS E LOGO */
-//       "flex-layout.row#social-idioma" /* ROW COM AS REDES SOCIAIS e ESCOLHA DE IDIOMA  e DIREITOS RESERVADOS*/
-//     ],
-//     "props": {
-//       "blockClass": "desktop"
-//     }
-//   },
-//   "flex-layout.row#block-image": {
-//     "children": ["flex-layout.col#bloco-vazio", "flex-layout.col#image-footer"],
-//     "props": {
-//       "blockClass": "white-block"
-//     }
-//   },
-//   "flex-layout.col#bloco-vazio": {
-//     "props": {
-//       "width": "30%"
-//     }
-//   },
-//   "flex-layout.col#image-footer": { /* IMAGEM DAS LUMINARIAS NO FOOTER */
-//     "children": ["image#footer"],
-//     "props": {
-//       "width": "70%"
-//     }
-//   },  
-//   "image#footer": {
-//     "props": {
-//       "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background.jpg",
-//       "blockClass": "image-footer"
-
-//     }
-//   },
-//   "flex-layout.row#escritorios": { /* ROW COM A PARTE DA LOCALIZACAO DOS ESCRITORIOS E LOGO */
-//     "children": [
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#brasil",
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#argentina",
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#mexico",
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#chile",
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#logo-footer",
-//       "flex-layout.col#spacer",
-//       "flex-layout.col#spacer"
-//     ],
-//     "props": {
-//       "verticalAlign": "CENTER",
-//       "horizontalAlign": "CENTER",
-//       "preventVerticalStretch": true,
-//       "preventHorizontalStretch": true,
-//       "blockClass": "escritorios"
-//     }
-//   },
-//   "flex-layout.col#brasil": { /* ESCRITORIO BRASIL */
-//     "children": ["rich-text#brasil"]
-//   },
-//   "rich-text#brasil": {
-//     "props": {
-//       "blockClass": "texto-footer",
-//       "textPosition": "LEFT",
-//       "text":" ###### Brasil \n Avenida Andrômeda, 2000.\n Bloco 6 e 8 Alphaville SP \n \n R. Ifigenia Maria de Oliveira,\n 3793 - Jr. Piratininga Franca SP"   
-//     }
-//   },
-//   "flex-layout.col#argentina": { /* ESCRITORIO ARGENTINA */
-//     "children": ["rich-text#argentina"]
-//   },
-//   "rich-text#argentina": {
-//     "props": {
-//       "blockClass": "texto-footer",
-//       "textPosition": "RIGHT",
-//       "text":" ##### Argentina \n Soler 5518, 3 Piso C1425BYF\n Palermo Hollywood CABA"   
-//     }
-//   },
-//   "flex-layout.col#mexico": { /* ESCRITORIO MEXICO */
-//     "children": ["rich-text#mexico"]
-//   },
-//   "rich-text#mexico": {
-//     "props": {
-//       "blockClass": "texto-footer",
-//       "textPosition": "LEFT",
-//       "text":" ##### Mexico \n Blvd. Miguel de Cervantes\n Saavedra 169, Granada, Miguel\n Hidalgo, 11520 Ciudad de\n México, CDMX"   
-//     }
-//   },
-//   "flex-layout.col#chile": { /* ESCRITORIO CHILE */
-//     "children": ["rich-text#chile"]
-//   },
-//   "rich-text#chile": {
-//     "props": {
-//       "blockClass": "texto-footer",
-//       "textPosition": "RIGHT",
-//       "text":" ##### Chile \n Roberto del Río 1137,\n Providencia."   
-//     }
-//   },
-//    "flex-layout.col#logo-footer":{ /* COL COM A IMAGEM DO LOGO */
-//       "children": ["image#logo-footer"],
-//       "props": {
-//         "blockClass": "logo-footer"
-//       }
-//   },
-//   "image#logo-footer": { /* LOGO-FOOTER COREBIZ */
-//     "props": {
-//       "width": 140,
-//       "src": "assets/logo-footer.jpg",
-//       "link": { 
-//         "url":"https://www.corebiz.ag/pt/about/" 
-//       }
-//     } 
-//   },
-//   "flex-layout.row#social-idioma": { /* ROW COM A PARTE DAS REDES SOCIAIS, MENU IDIOMAS E DIREITOS AUTORAIS */
-//     "children": [
-//       "flex-layout.col#social-seguir", 
-//       "flex-layout.col#idiomas",
-//       "flex-layout.col#botao-topo"
-//     ],
-//     "props": {
-//       "blockClass": "social-idioma",
-//       "verticalAlign": "CENTER",
-//       "horizontalAlign": "CENTER"
-//     }
-//   },
-//   "flex-layout.col#social-seguir": { /* PARTE DO TEXTO SIGA A GENTE E DAS REDES SOCIAIS */
-//     "children": ["flex-layout.row#seguir", "flex-layout.row#redes-sociais"],
-//     "props": {
-//       "blockClass": "social-seguir",
-//       "width": "30%"
-//     }
-//   },
-//   "flex-layout.row#seguir": {
-//     "children": ["rich-text#seguir"]
-//   },
-//   "rich-text#seguir": {
-//     "props": {
-//       "blockClass": "texto-seguir",
-//       "textPosition": "LEFT",
-//       "text":" ##### Siga a gente"   
-//     }
-//   },
-//   "flex-layout.row#redes-sociais": { /* ROW COM AS REDES SOCIAIS */
-//     "children": ["flex-layout.col#instagram", "flex-layout.col#facebook", "flex-layout.col#linkedin"],
-//     "props": {
-//       "blockClass": "social",
-//       "horizontalAlign": "CENTER"
-//     }
-//   },
-//   "flex-layout.col#instagram": { /* INSTAGRAM */
-//     "children": ["image#instagram"]
-//   },
-//   "image#instagram": {
-//     "props": {
-//       "width": 20,
-//       "src": "assets/instagram.svg",
-//       "link": { 
-//         "url":"https://www.instagram.com/corebizag/" 
-//       }
-//     } 
-//   },
-//   "flex-layout.col#facebook": { /* FACEBOOK */
-//     "children": ["image#facebook"],
-//     "props": {
-//       "blockClass": "image-facebook"
-//     }
-//   },
-//   "image#facebook": {
-//     "props": {
-//       "width": 20,
-//       "src": "assets/facebook.svg",
-//       "link": { 
-//         "url":"https://www.facebook.com/corebiz.ag/" 
-//       }
-//     } 
-//   },
-//   "flex-layout.col#linkedin": { /* LINKEDIN */
-//     "children": ["image#linkedin"]
-//   },
-//   "image#linkedin": {
-//     "props": {
-//       "width": 20,
-//       "src": "assets/linkedin.svg",
-//       "link": { 
-//         "url":"https://www.linkedin.com/company/corebiz-brasil/" 
-//       }
-//     } 
-//   },
-//   "flex-layout.col#idiomas": { /* MENU IDIOMAS E TEXTO DIREITOS RESERVADOS */
-//     "children": ["flex-layout.row#idiomas", "flex-layout.row#direitos"],
-//     "props": {
-//       "width": "65%",
-//       "blockClass": "idiomas-direitos"
-      
-//     }
-//   },
-//   "flex-layout.row#idiomas": { /* MENU IDIOMAS */
-//     "children": ["menu#idiomas"],
-//     "props": {
-//       "blockClass": "idiomas",
-//       "horizontalAlign": "LEFT"
-//     }
-//   },
-//   "menu#idiomas": {
-//     "props": {
-//       "blockClass": "menu-idiomas",
-//       "items": [
-//         {
-//           "id": "pt", /* PORTUGUES */
-//           "type": "custom",
-//           "iconId": null,
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/",
-//             "noFollow": false,
-//             "tagTitle": "pt",
-//             "text": "pt"
-//           }
-//         },
-//         {
-//           "id": "en", /* INGLES */
-//           "type": "custom",
-//           "iconId": null,
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/about-us-en",
-//             "noFollow": false,
-//             "tagTitle": "en",
-//             "text": "en"
-//           }
-//         },
-//         {
-//           "id": "es", /* ESPANHOL */
-//           "type": "custom",
-//           "iconId": null,
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/about-us-es",
-//             "noFollow": false,
-//             "tagTitle": "es",
-//             "text": "es"
-//           }
-//         }
-//       ]
-//     }
-//   },
-//   "flex-layout.row#direitos": { /* TEXTO DIREITOS RESERVADOS */
-//     "children": ["rich-text#direitos"]
-//   },
-//   "rich-text#direitos": { 
-//     "props": {
-//       "blockClass": "texto-direitos",
-//       "textPosition": "LEFT",
-//       "text": "direitos reservados.corebiz 2021"   
-//     }
-//   },
-//   "flex-layout.col#botao-topo": {
-//     "children": ["image#botao-topo"],
-//     "props": {
-//       "width": "5%",
-//       "blockClass": "botao-topo"
-//     }
-//   },
-//   "image#botao-topo": {
-//     "props": {
-//       "width": 40,
-//       "src": "assets/topo-mobile.jpg",
-//       "link": { 
-//         "url":"/" 
-//       }
-//     } 
-//   },
-//   "footer#vazio": {
-//     "blocks":[
-      
-//     ]
-//   }
-// }
+}

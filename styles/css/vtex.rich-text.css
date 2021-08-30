@@ -253,6 +253,7 @@
 .heading--texto-footer {
   /* TEXTO COM OS NOMES DOS PAISES */
   color: #fff;
+  font-size: 0.7rem;
 }
 
 .paragraph--texto-footer {
@@ -265,6 +266,7 @@
 .heading--texto-seguir {
   /* TEXTO SIGA A GENTE */
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .paragraph--texto-direitos {
