@@ -7,8 +7,8 @@
       // INSERIR BLOCO DO ALEX,
       "flex-layout.row#worldwide",
       // INSERIR BLOCO DO HENRIQUE
-      "flex-layout.row#numbers" // NUMBERS
-      // "leads-form"
+      "flex-layout.row#numbers", // NUMBERS
+      "leads-form"
     ]
   }
    //inicio do bloco menu
