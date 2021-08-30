@@ -1,15 +1,26 @@
 {
   "store.custom#who-we-are": {
     "blocks": [
-      "rich-text#title",
-      "rich-text#subtitle",
-      //"flex-layout.row#seeMore",
-      "flex-layout.row#historyCard"      
-    ],
-    "parent": {
-      "header": "header#vazio"
+      "flex-layout.row#who-we-are"
+           
+    ]
+  },
+  "flex-layout.row#who-we-are":{
+    "children": ["flex-layout.col#whoWeAreContainer"],
+    "props": {
+      "blockClass": "whoWeAre"
     }
   },
+  "flex-layout.col#whoWeAreContainer": {
+    "children": [ "rich-text#title",
+      "rich-text#subtitle",
+      //"flex-layout.row#seeMore",
+      "flex-layout.row#historyCard" ],
+    "props": {
+      "blockClass": "whoWeAreContainer"
+    }
+  },
+
   "rich-text#title":{
     "props":{
       "text":"who we are?",

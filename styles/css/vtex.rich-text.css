@@ -36,6 +36,34 @@
 .container--title {
   margin-top: 13rem;
 }
+/* ===== A COREBIZ ===== */
+
+.container--aboutTitle {
+  margin-top: 2rem;
+}
+.paragraph--aboutTitle {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 6rem;
+  max-width: 50rem;
+  color: #fff;
+  font-family: Circular Std Medium, sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 0.8;
+  margin: 0 0 3rem;
+}
+
+.paragraph--aboutDesc {
+  margin-left: 50px;
+  margin-top: 0;
+  width: 75%;
+  max-width: 28.5rem;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: white;
+}
 
 /* === WHO WE ARE === */
 
@@ -151,6 +179,9 @@
 }
 .link--texto-paises {
   color: #000;
+}
+.container--texto-worldwide {
+  margin-top: 80px;
 }
 
 /* ===== NUMBER ====== */

@@ -1,12 +1,25 @@
 {
     "store.custom#vision-values": {
-      "blocks": ["flex-layout.row#vision",
-        "flex-layout.row#values"
-      ],
-      "parent": {
-        "header": "header#vazio"
-      }
+      "blocks": ["flex-layout.row#vision-and-values"
+      ]
     },
+    "flex-layout.row#vision-and-values": {
+      "children":["flex-layout.col#visionAndValuesContainer"],
+        "props":{
+          "blockClass": "visionAndValue"
+        } 
+    },
+    "flex-layout.col#visionAndValuesContainer":{
+      "children":["flex-layout.row#vision",
+        "flex-layout.row#values"],
+      "props":{
+        "blockClass": "visionAndValuesContainer"
+      } 
+    },
+
+
+
+
     "flex-layout.row#vision":{
       "children":["flex-layout.col#visionContainer"],
       "props":{
