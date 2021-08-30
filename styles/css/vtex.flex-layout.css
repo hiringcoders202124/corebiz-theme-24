@@ -80,3 +80,139 @@
     left: 10%;
     height: 60%;
 }
+
+/* ==== FOOTER ==== */
+
+/* === DESKTOP === */
+
+.flexRow--white-block {
+    /* FLEXROW CONTENDO A PARTE BRANCA E A IMAGEM DA LUMINARIA*/
+    background: #fff;
+    max-width: 99.8%;
+}
+
+.flexRow--escritorios {
+    /* ENDERECOS ESCRITORIOS*/
+    background: #000;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    position: absolute;
+    width: 95%;
+    bottom: 25%;
+}
+
+.flexCol--logo-footer {
+    /* LOGO NO FOOTER */
+    margin-top: 2.5%;
+}
+
+.flexRow--social-idioma {
+    /* REDES SOCIAIS, IDIOMAS E DIREITOS AUTORAIS */
+
+    background: #000;
+    width: 95%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.flexRow--idiomas {
+    /* ROW COM O MENU DE IDIOMAS */
+    padding-top: 2%;
+}
+
+.flexCol--social-seguir {
+    /* ROW COM O TEXTO SIGA A GENTE */
+    display: flex;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.flexCol--idiomas-direitos {
+    /* COL DO MENUS IDIOMAS E DIREITOS RESERVADOS */
+    padding-left: 25%;
+}
+
+.flexCol--botao-topo {
+    /* BOTAO PARA VOLTAR AO TOPO*/
+    align-items: center;
+} /* === MOBILE === */
+
+.flexCol--image-footer-mobile {
+    /* IMAGEM LUMINARIAS */
+    padding-left: 55%;
+}
+
+.flexRow--white-block-mobile {
+    /* FLEXROW CONTENDO A PARTE BRANCA E A IMAGEM DA LUMINARIA*/
+    background: #000;
+    width: 100%;
+}
+
+.flexRow--logo-footer-mobile {
+    /* LOGO NO FOOTER */
+    background: #000;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    position: absolute;
+    width: 100%;
+    top: 8%;
+    padding-left: 40%;
+}
+
+.flexRow--escritorios-mobile {
+    /* ENDERECOS ESCRITORIOS */
+    background: #000;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.flexRow--escritorios-mobile2 {
+    /* ENDERECOS ESCRITORIOS */
+    background: #000;
+    padding-bottom: 40px;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.flexRow--seguir-mobile {
+    /* ROW COM O TEXTO SIGA A GENTE */
+    display: flex;
+    text-align: center;
+    background: #000;
+}
+
+.flexRow--social-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    background: #000;
+}
+
+.flexRow--botao-topo-mobile {
+    /* BOTAO PARA VOLTAR AO TOPO*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    background: #000;
+}
+
+.flexRow--idiomas-mobile {
+    /* ROW COM O MENU DE IDIOMAS */
+    display: flex;
+    align-items: center;
+    background: #000;
+}
+
+.flexRow--direitos-mobile {
+    /* DIREITOS RESERVADOS */
+    display: flex;
+    text-align: center;
+    padding-bottom: 5%;
+    background: #000;
+}
