@@ -10,8 +10,43 @@
   /*background-color:black;*/
 }
 
-.flexRow--banner-home {
-  background-color: #000;
+/* A COREBIZ */
+.flexRow--text {
+  background-color: black;
+  width: 51rem;
+  background-size: 62rem;
+  background-repeat: no-repeat;
+  padding: 5.5rem 0rem;
+  height: 41rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.flexColChild--textContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0rem;
+}
+
+.flexRow--image {
+  display: flex;
+  background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg");
+  position: absolute;
+  margin-left: 57%;
+  margin-top: 5.5rem;
+  width: 72%;
+  height: 40rem;
+  z-index: 1;
+  left: 26rem;
+}
+
+.flexCol--imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 0rem;
+  margin-left: 25rem;
+  padding: 7rem 7rem;
 }
 
 /* === WHO WE ARE === */
@@ -21,6 +56,8 @@
   display: flex;
   align-items: flex-end;
 }
+
+/* === VISION AND VALUES === */
 
 .flexRow--vision {
   background-image: url(https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg);
@@ -59,7 +96,7 @@
 
 /* ==== WORLDWIDE ==== */
 
-.flexRow--image-mundo {
+.flexRow-- {
   /* IMAGEM MAPA MUNDI */
   position: relative;
   width: 100%;
@@ -218,6 +255,12 @@
 }
 
 /* SESSION NUMBERS */
+
+.flexRow--numbers {
+  background-image: url("https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/map-our-numbers.png");
+  height: 50rem;
+  background-repeat: no-repeat;
+}
 
 .flexRowContent--row-dados {
   background: rgba(0, 0, 0, 0);

@@ -4,10 +4,7 @@
         "flex-layout.row#image-mundo",
         "flex-layout.row#texto-worldwide",
         "flex-layout.row#enderecos-paises" 
-    ],
-    "parent": {
-        "header": "header#vazio"
-      }
+    ]
     },
     "flex-layout.row#image-mundo": { /* IMAGEM MAPA MUNDI */
         "children": [
