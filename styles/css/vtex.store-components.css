@@ -1,48 +1,48 @@
 .imageelement--banner {
-    position: relative;
-    z-index: 2;
-    top: 0;
-    width: 70rem;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  top: 0;
+  width: 70rem;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 
 .logoImage {
-    margin-top: 3.5rem;
+  margin-top: 3.5rem;
 }
 
 /* === WHO WE ARE === */
 
 .container--seeMore {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 1rem;
 }
 .imageElement--click {
-    width: 24px;
-    height: 25px;
-    left: 0;
-    top: -5px;
+  width: 24px;
+  height: 25px;
+  left: 0;
+  top: -5px;
 }
 .imageElement--line {
-    width: 28px;
-    height: 11px;
-    right: 0;
-    top: 5px;
+  width: 28px;
+  height: 11px;
+  right: 0;
+  top: 5px;
 }
 
 /* FOOTER */
 
 .imageElement--image-footer {
-    /* IMAGEM DESKTOP DAS LUMINARIAS */
-    padding-left: 0.5%;
+  /* IMAGEM DESKTOP DAS LUMINARIAS */
+  padding-left: 0.5%;
 }
 
 .imageElement--image-footer-mobile {
-    /* IMAGEM MOBILE DAS LUMINARIAS */
-    padding-left: 5%;
+  /* IMAGEM MOBILE DAS LUMINARIAS */
+  padding-left: 5%;
 }

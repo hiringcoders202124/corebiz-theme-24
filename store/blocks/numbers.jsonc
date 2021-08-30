@@ -1,14 +1,24 @@
 {
   "store.custom#numbers": {
     "blocks": [
-      "flex-layout.row#image-mundo-black",
-      "flex-layout.row#texto-numbers",
-      "flex-layout.row#texto-visao",
-      "flex-layout.row#dados"
+      "flex-layout.row#numbers"
+      // "flex-layout.row#image-mundo-black",
+      // "flex-layout.row#texto-numbers",
+      // "flex-layout.row#texto-visao",
+      // "flex-layout.row#dados"
 
-    ],
-    "parent": {
-      "header": "header#vazio"
+    ]
+  },
+  "flex-layout.row#numbers": {
+    "children": ["flex-layout.col#numbersContainer"],
+    "props": {
+      "blockClass": "numbers"
+    }
+  },
+  "flex-layout.col#numbersContainer": {
+    "children": [ "flex-layout.row#texto-numbers", "flex-layout.row#texto-visao", "flex-layout.row#dados"],
+    "props": {
+      "blockClass": "numbersContainer"
     }
   },
 

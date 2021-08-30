@@ -13,10 +13,11 @@
       "flex-layout.row#texto-worldwide",
       "flex-layout.row#enderecos-paises",
       // INSERIR BLOCO DO HENRIQUE
-      "flex-layout.row#texto-numbers", // INÍCIO SESSÃO NUMBERS
-      "flex-layout.row#texto-visao",
-      "flex-layout.row#dados", 
-      "flex-layout.row#image-mundo-black" 
+      "flex-layout.row#numbers"
+      // "flex-layout.row#texto-numbers", // INÍCIO SESSÃO NUMBERS
+      // "flex-layout.row#texto-visao",
+      // "flex-layout.row#dados", 
+      // "flex-layout.row#image-mundo-black" 
       // FORM DA TAMARA
     ]
   }
