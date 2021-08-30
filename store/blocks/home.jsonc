@@ -6,9 +6,7 @@
       "flex-layout.row#vision", // VISION & VALUES"
       "flex-layout.row#values", 
       // INSERIR BLOCO DO ALEX,
-      "flex-layout.row#image-mundo", // INÍCIO SESSÃO WORLDWIDE
-      "flex-layout.row#texto-worldwide",
-      "flex-layout.row#enderecos-paises",
+      "flex-layout.row#worldwide",
       // INSERIR BLOCO DO HENRIQUE
       "flex-layout.row#numbers"
       // "flex-layout.row#texto-numbers", // INÍCIO SESSÃO NUMBERS

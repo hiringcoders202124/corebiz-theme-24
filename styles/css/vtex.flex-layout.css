@@ -93,13 +93,21 @@
 }
 
 /* ==== WORLDWIDE ==== */
-
-.flexRow-- {
-  /* IMAGEM MAPA MUNDI */
-  position: relative;
+.flexRow--worldwide {
+  background-image: url("https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/worldwide.png");
+  background-position: center center, center top;
+  background-repeat: repeat, no-repeat;
+  height: 50rem;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .flexRow-- { */
+/* IMAGEM MAPA MUNDI */
+/* position: relative;
   width: 100%;
   background: #f5f5f5;
-}
+} */
 
 .flexRow--texto-worldwide {
   /* TEXTO COREBIZ WORLDWIDE */

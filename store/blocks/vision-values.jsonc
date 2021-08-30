@@ -2,10 +2,7 @@
     "store.custom#vision-values": {
       "blocks": ["flex-layout.row#vision",
         "flex-layout.row#values"
-      ],
-      "parent": {
-        "header": "header#vazio"
-      }
+      ]
     },
     "flex-layout.row#vision":{
       "children":["flex-layout.col#visionContainer"],

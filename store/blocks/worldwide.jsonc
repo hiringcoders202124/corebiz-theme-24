@@ -1,11 +1,26 @@
 {
     "store.custom#worldwide": { 
     "blocks": [
-        "flex-layout.row#image-mundo",
-        "flex-layout.row#texto-worldwide",
-        "flex-layout.row#enderecos-paises" 
+        "flex-layout.row#worldwide"
+         
     ]
     },
+    "flex-layout.row#worldwide": {
+        "children": ["flex-layout.col#worldwideContainer"],
+        "props": {
+          "blockClass": "worldwide"
+        }
+      },
+    "flex-layout.col#worldwideContainer": {
+    "children": [ 
+        "flex-layout.row#texto-worldwide",
+        "flex-layout.row#enderecos-paises"],
+    "props": {
+        "blockClass": "worldwideContainer"
+    }
+    },
+
+
     "flex-layout.row#image-mundo": { /* IMAGEM MAPA MUNDI */
         "children": [
             "image#mundo"
