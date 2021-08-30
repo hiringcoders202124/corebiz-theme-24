@@ -1,0 +1,116 @@
+{
+    "store.custom#worldwide": { 
+    "blocks": [
+        "flex-layout.row#image-mundo",
+        "flex-layout.row#texto-worldwide",
+        "flex-layout.row#enderecos-paises" 
+    ]
+    },
+    "flex-layout.row#image-mundo": { /* IMAGEM MAPA MUNDI */
+        "children": [
+            "image#mundo"
+        ],
+        "props": {
+            "blockClass": "image-mundo",
+            "fullWidth": true,
+            "preventVerticalStretch": true
+    }
+    },
+    "image#mundo": {
+        "props": {
+        "blockClass": "mundo",
+            "width": "100%",
+            "src": "assets/worldwide.png"
+        }
+    },
+    "flex-layout.row#texto-worldwide": { /* TEXTO COREBIZ WORLDWIDE */
+        "children": ["rich-text#texto-worldwide"],
+        "props": {
+            "blockClass": "texto-worldwide"
+        }
+    },
+    "rich-text#texto-worldwide": {
+        "props": {
+        "blockClass": "texto-worldwide",
+        "textPosition": "LEFT",
+        "text":"corebiz worldwide."   
+        }
+    },
+    "flex-layout.row#enderecos-paises": {
+    "children": ["flex-layout.col#br-ch", "flex-layout.col#ar-es", "flex-layout.col#mx"],
+    "props": {
+        "blockClass": "enderecos-paises"
+    }
+    },
+    "flex-layout.col#br-ch": {  /*ESCRITORIOS BRASIL E CHILE */
+    "children": ["flex-layout.row#br", "flex-layout.row#ch"],
+    "props": {
+        "blockClass": "enderecos-br-ch" 
+    } 
+    },
+    "flex-layout.row#br": { /* ESCRITORIO BRASIL */
+    "children": ["rich-text#br"]
+    },
+    "rich-text#br": {
+    "props": {
+        "blockClass": "texto-paises",
+        "textPosition": "LEFT",
+        "text":" ##### Brasil \n [brasil@corebiz.ag](brasil@corebiz.ag) \n\n Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP"   
+    }
+    },
+    "flex-layout.row#ch": { /* ESCRITORIO CHILE */
+    "children": ["rich-text#ch"]
+    },
+    "rich-text#ch": {
+    "props": {
+        "blockClass": "texto-paises",
+        "textPosition": "LEFT",
+        "text":" ##### Chile \n [chile@corebiz.ag](chile@corebiz.ag) \n\n Roberto del Río 1137, \n Providencia."   
+    }
+    },
+    "flex-layout.col#ar-es": {  /*ESCRITORIOS ARGENTINA E ESPANHA */
+    "children": ["flex-layout.row#ar", "flex-layout.row#es"],
+    "props": {
+        "blockClass": "enderecos-ar-es"
+    } 
+    },
+    "flex-layout.row#ar": { /* ESCRITORIO ARGENTINA */
+    "children": ["rich-text#ar"],
+    "props": {
+        "blockClass": "enderecos-ar"
+    } 
+    },
+    "rich-text#ar": {
+    "props": {
+        "blockClass": "texto-paises",
+        "textPosition": "LEFT",
+        "text":" ##### Argentina \n [argentina@corebiz.ag](argentina@corebiz.ag) \n\n Soler 5518, 3 Piso C1425BYF \n Palermo Hollywood CABA"   
+    }
+    },
+    "flex-layout.row#es": { /* ESCRITORIO ESPANHA */
+    "children": ["rich-text#es"]
+    },
+    "rich-text#es": {
+    "props": {
+        "blockClass": "texto-paises",
+        "textPosition": "LEFT",
+        "text":" ##### España \n [esp@corebiz.ag](esp@corebiz.ag) \n\n Avenida de Brasil, 29 - \n Oficinas. 28020 Madrid"   
+    }
+    },
+    "flex-layout.col#mx": {  /*ESCRITORIO MEXICO*/
+    "children": ["flex-layout.row#mx"],
+    "props": {
+        "blockClass": "enderecos-mx"
+    } 
+    },
+    "flex-layout.row#mx": { /* ESCRITORIO MEXICO*/
+    "children": ["rich-text#mx"]
+    },
+    "rich-text#mx": {
+    "props": {
+        "blockClass": "texto-paises",
+        "textPosition": "LEFT",
+        "text":" ##### México \n [mexico@corebiz.ag](mexico@corebiz.ag) \n\n Blvd. Miguel de Cervantes \n Saavedra 169, Granada, \n Miguel Hidalgo, 11520 \n Ciudad de México, CDMX"   
+    }
+    }
+}

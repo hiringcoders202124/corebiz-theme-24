@@ -56,3 +56,27 @@
     margin-left: 25rem;
     padding: 7rem 7rem;
 }
+
+/* ==== WORLDWIDE ==== */
+
+.flexRow--image-mundo {
+    /* IMAGEM MAPA MUNDI */
+    position: relative;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.flexRow--texto-worldwide {
+    /* TEXTO COREBIZ WORLDWIDE */
+    /* position: absolute; */
+    top: 20%;
+    left: 5%;
+}
+
+.flexRow--enderecos-paises {
+    width: 80%;
+    /* position: absolute; */
+    top: 38%;
+    left: 10%;
+    height: 60%;
+}

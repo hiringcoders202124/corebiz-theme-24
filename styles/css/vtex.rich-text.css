@@ -133,3 +133,22 @@
 .listItem--valuesDesc {
     list-style-type: none;
 }
+
+/* ===== WORLDWIDE ===== */
+
+.paragraph--texto-worldwide {
+    /* TEXTO COREBIZ WORLDWIDE */
+    font-size: 3rem;
+    color: #000;
+}
+.heading--texto-paises {
+    color: #000;
+    font-size: 1.2rem;
+}
+.paragraph--texto-paises {
+    color: #000;
+    font-size: 0.9rem;
+}
+.link--texto-paises {
+    color: #000;
+}

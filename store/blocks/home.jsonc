@@ -3,7 +3,13 @@
     "blocks": [
       "store.custom#a-corebiz",
       "store.custom#who-we-are",
-      "store.custom#vision-values"
+      "store.custom#vision-values",
+      // BLOCO DO ALEX,
+      "store.custom#worldwide"
+      // BLOCO DO HENRIQUE
+      // BLOCO DA TAMARA
+      // FORM DA TAMARA
+      // FOOTER
     ]
   }
    //inicio do bloco menu
