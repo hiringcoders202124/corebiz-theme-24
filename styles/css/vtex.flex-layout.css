@@ -11,45 +11,43 @@
 }
 
 /* A COREBIZ */
-.flexRow--text {
-  background-color: black;
+.flexRow--a-corebiz {
+  height: 50rem;
+  margin-bottom: 50px;
+}
+
+.flexRow--about {
+  background-color: #000;
   width: 51rem;
   background-size: 62rem;
   background-repeat: no-repeat;
   padding: 5.5rem 0rem;
   height: 41rem;
-  position: absolute;
-  z-index: 2;
+  /* position: absolute; */
+  /* z-index: 1; */
 }
 
-.flexColChild--textContainer {
-  display: flex;
-  flex-direction: row;
-  margin-left: 0rem;
-}
-
-.flexRow--image {
+.flexRow--imageCorebiz {
   display: flex;
   background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg");
-  position: absolute;
-  margin-left: 57%;
-  margin-top: 5.5rem;
-  width: 72%;
-  height: 40rem;
-  z-index: 1;
-  left: 26rem;
-}
-
-.flexCol--imageContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-right: 0rem;
-  margin-left: 25rem;
-  padding: 7rem 7rem;
+  /* position: absolute; */
+  margin-left: 72%;
+  margin-top: 0rem;
+  width: 70%;
+  height: 50rem;
+  /* z-index: 2; */
+  left: -26rem;
+  background-repeat: no-repeat;
 }
 
 /* === WHO WE ARE === */
+
+.flexRow--who-we-are {
+  display: flex;
+  align-items: flex-start;
+  height: 50rem;
+  background-repeat: no-repeat;
+}
 
 .flexColChild--containerCard {
   height: 10rem;
@@ -66,7 +64,7 @@
   background-repeat: no-repeat;
   padding: 5.5rem 0rem;
   height: 41rem;
-  position: absolute;
+  /* position: absolute; */
   z-index: 2;
 }
 .flexColChild--visionContainer {
@@ -77,7 +75,7 @@
 .flexRow--values {
   display: flex;
   background-color: rgb(245, 245, 245);
-  position: absolute;
+  /* position: absolute; */
   margin-left: 57%;
   margin-top: 5.5rem;
   width: 72%;
