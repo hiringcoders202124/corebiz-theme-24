@@ -1,20 +1,18 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop"
+    ]
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "flex-layout.row#desktop"
     ]
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -22,14 +20,13 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "header"
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "vtex.menu:menu#websites",
-      //"flex-layout.col#spacer",
-      //"vtex.menu:menu#idioma"
       "locale-switcher" 
     ]
   },
@@ -52,27 +49,148 @@
       "width": "100"
     }
   },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
+
+  // "===="
+
+  "vtex.menu:menu#websites": {
     "children": [
-      "drawer",
-      "logo",
-      "vtex.menu:menu#websites",
-      "locale-switcher"
+      "menu-item#acorebiz",
+      "menu-item#serviços",
+      "menu-item#cases",
+      "menu-item#contatos",
+      "menu-item#carrers",
+      "menu-item#blog"
     ],
+    "props":{
+      "blockClass": "menu"
+    } 
+  },
+
+  "menu-item#acorebiz": {
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "id": "menu-item-acorebiz",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "a corebiz",
+        "text": "a corebiz"
+      }
+    }
+},
+  "menu-item#serviços": {
+      "props": {
+        "id": "menu-item#serviços",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "serviços",
+          "text": "serviços"
+        }
+      }
+  },
+  "menu-item#cases": {
+        "props": {
+          "id": "menu-item#cases",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "cases",
+            "text": "cases"
+          }
+        }
+  },
+  "menu-item#contatos": {
+    "props": {
+      "id": "menu-item#contatos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "contatos",
+        "text": "contatos"
+      }
     }
   },
-  "drawer": {
-    "children": []
+    "menu-item#carrers": {
+      "props": {
+        "id": "menu-item#carrers",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "carrers",
+          "text": "carrers"
+        }
+      }
+    },
+  "menu-item#blog": {
+              "props": {
+                "id": "menu-item#blog",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "blog",
+                  "text": "blog"
+                }
+              }
+  },//fim do bloco menu
+
+  "menu-item#pt": {
+  "props": {
+    "id": "menu-item-pt",
+    "type": "custom",
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "pt",
+      "text": "Pt"
+    }
   }
+  },
+  "menu-item#en": {
+    "props": {
+      "id": "menu-item#en",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "en",
+        "text": "En"
+      }
+    }
+  },
+  "menu-item#es": {
+    "props": {
+      "id": "menu-item#es",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "es",
+        "text": "Es"
+      }
+    }
+  }//fim do bloco de menu idioma
 }

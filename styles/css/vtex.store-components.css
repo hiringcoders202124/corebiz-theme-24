@@ -7,7 +7,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-repeat: no-repeat;
 }
+
 .logoImage {
     margin-top: 3.5rem;
+}
+
+/* === WHO WE ARE === */
+
+.container--seeMore {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+.imageElement--click {
+    width: 24px;
+    height: 25px;
+    left: 0;
+    top: -5px;
+}
+.imageElement--line {
+    width: 28px;
+    height: 11px;
+    right: 0;
+    top: 5px;
 }

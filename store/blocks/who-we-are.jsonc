@@ -1,0 +1,316 @@
+{
+  "store.custom#who-we-are": {
+    "blocks": [
+      "rich-text#title",
+      "rich-text#subtitle",
+      //"flex-layout.row#seeMore",
+      "flex-layout.row#historyCard"      
+    ]
+  },
+  "rich-text#title":{
+    "props":{
+      "text":"who we are?",
+      "blockClass":"title"
+    }
+  },
+  "rich-text#subtitle":{
+    "props":{
+      "text":"from santa monica \n to corebiz",
+      "blockClass":"subtitle"
+    }
+  },
+  /*"flex-layout.row#seeMore":{
+    "children": [
+      "image#click",
+      "rich-text#clickSeeMore",
+      "image#line"
+    ],
+    "props":{
+      "blockClass":"seeMore"
+    }
+
+  },
+  "image#click":{
+    "props":{
+      "src": "data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkdydXBvIDQwMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjIyLjE4IiBoZWlnaHQ9IjIyLjgxMyI+PGcgZGF0YS1uYW1lPSJHcnVwbyA0MDI5IiBmaWxsPSIjMzM4NWYxIj48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjk4IiBkPSJNMTMuMjQ4IDMuMzg2YTIuMTU5IDIuMTU5IDAgMDAtNC4zMTcgMHY3LjE5NWEzLjYgMy42IDAgMDAtMy42IDMuNnYzLjg1bDIuODc4IDMuNnYxLjE4NWgxLjQzOXYtMS43bC0yLjg3OC0zLjZ2LTMuMzM3YTIuMTU4IDIuMTU4IDAgMDEyLjE1OC0yLjE1OHY1LjAzNmgxLjQzOVYzLjM4NmEuNzIuNzIgMCAwMTEuNDM5IDB2Ni4zMDZsMi4zNTMuNjQyLjM3OC0xLjM4OS0xLjMtLjM1M3oiLz48cGF0aCBkYXRhLW5hbWU9IlJldMOibmd1bG8gMTY1NCIgZD0iTTE2LjkzOSAxMS4wOTVsLTEuMzg5LS4zNzguMzc5LTEuMzkgMS4zODguMzh6Ii8+PHBhdGggZGF0YS1uYW1lPSJDYW1pbmhvIDI5OSIgZD0iTTE4LjMyNyAxMS40NjlsMS40LjM4MXY2LjQwNmwtMi4xNTggMi44Nzh2MS42NzloMS40Mzl2LTEuMmwyLjE1OC0yLjg3OHYtNy45ODRsLTIuNDU3LS42N3oiLz48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMzAwIiBkPSJNMy42ODQgMS4wMTdMMi42NjggMCAwIDIuNjY3bDIuNjY4IDIuNjY3IDEuMDE3LTEuMDE3LS45My0uOTNoMS44NjFWMS45NDhIMi43NTR6Ii8+PHBhdGggZGF0YS1uYW1lPSJSZXTDom5ndWxvIDE2NTUiIGQ9Ik02LjA1NCAxLjk0OGgxLjQzOXYxLjQzOUg2LjA1NHoiLz48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMzAxIiBkPSJNMTguNDk1IDQuMzE3bDEuMDE0IDEuMDE3IDIuNjY3LTIuNjY3TDE5LjUwOSAwbC0xLjAxNyAxLjAxNy45My45M2gtMS44NjF2MS40NGgxLjg2MXoiLz48cGF0aCBkYXRhLW5hbWU9IlJldMOibmd1bG8gMTY1NiIgZD0iTTE0LjY4OCAxLjk0OGgxLjQzOXYxLjQzOWgtMS40Mzl6Ii8+PC9nPjwvc3ZnPg==",
+      "blockClass": "click"
+    }
+  },
+  "rich-text#clickSeeMore":{
+    "props":{
+      "text": "clique para ver mais",
+      "blockClass": "clickSeeMore"
+    }
+  },
+  "image#line":{
+    "props":{
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSI1Ij48ZyBkYXRhLW5hbWU9IkdydXBvIDM5NDAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMTQpIiBmaWxsPSIjMzM4NWYxIj48cGF0aCBkYXRhLW5hbWU9IlJldMOibmd1bG8gMTYwOSIgZD0iTTIxNCAyaDIzdjFoLTIzeiIvPjxjaXJjbGUgZGF0YS1uYW1lPSJFbGlwc2UgNDAiIGN4PSIyLjUiIGN5PSIyLjUiIHI9IjIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjM1KSIvPjwvZz48L3N2Zz4=",
+      "blockClass": "line"
+    }
+  },*/
+  "flex-layout.row#historyCard":{
+    "children":["slider-layout#card"],
+    "props":{
+      "blockClass": "slider"
+    }
+  },
+  "slider-layout#card":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "centermode": "to-the-left",
+      "usePagination":"true",
+      "showPaginationDots": "never"
+    },
+    "children":["flex-layout.col#card01",
+      "flex-layout.col#card02",
+      "flex-layout.col#card03",
+      "flex-layout.col#card04",
+      "flex-layout.col#card05",
+      "flex-layout.col#card06",
+      "flex-layout.col#card07",
+      "flex-layout.col#card08",
+      "flex-layout.col#card09"
+    ]
+  },
+  "flex-layout.col#card01":{
+    "children":["image#logoCard01",
+      "rich-text#yearCard01",
+      "rich-text#descCard01"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard01":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/santa-monica.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard01":{
+    "props":{
+      "text": "2013"
+    }
+  },
+  "rich-text#descCard01":{
+    "props":{
+      "text":"nasce a sta_monica, produtora digital focada em ecommerce. \n \n \\* o primeiro projeto de ecommerce foi feito de graça para conquistar um case.",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card02":{
+    "children":["image#logoCard02",
+      "rich-text#yearCard02",
+      "rich-text#descCard02"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard02":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/e-seo.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard02":{
+    "props":{
+      "text": "2013"
+    }
+  },
+  "rich-text#descCard02":{
+    "props":{
+      "text":"passamos a prestar serviços de seo & ongoing de tecnologia para plataformas vtex. \n \n 30 clientes ativos",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card03":{
+    "children":["image#logoCard03",
+      "rich-text#yearCard03",
+      "rich-text#descCard03"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard03":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/new-deli.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard03":{
+    "props":{
+      "text": "2014"
+    }
+  },
+  "rich-text#descCard03":{
+    "props":{
+      "text":"absorção da **B. New/OBD**, agência especializada em cro + ux e criação da **Newdeli**, produtora de e-commerce focada em smb. \n \n **felipe gomes:** novo sócio",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card04":{
+    "children":["image#logoCard04",
+      "rich-text#yearCard04",
+      "rich-text#descCard04"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard04":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/wunderbiz-1.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard04":{
+    "props":{
+      "text": "2015"
+    }
+  },
+  "rich-text#descCard04":{
+    "props":{
+      "text":"compra da **Wunderbiz**, empresa focada em soluções de crm. \n \n **galba junior:** novo sócio",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card05":{
+    "children":["image#logoCard05",
+      "rich-text#yearCard05",
+      "rich-text#descCard05"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard05":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/corebiz.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard05":{
+    "props":{
+      "text": "2016/2017"
+    }
+  },
+  "rich-text#descCard05":{
+    "props":{
+      "text":"unificação de todas as marcas, criação de nova agência.\n \n reposicionamento e re-brand de todas as marcas.",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card06":{
+    "children":["image#logoCard06",
+      "rich-text#yearCard06",
+      "rich-text#descCard06"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard06":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/go-global-hello-squads.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard06":{
+    "props":{
+      "text": "2018"
+    }
+  },
+  "rich-text#descCard06":{
+    "props":{
+      "text":"início da expansão global e expansão de portfólio de serviços. \n \n aquisição **Estúdio12** aquisição **SmartNip**",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card07":{
+    "children":["image#logoCard07",
+      "rich-text#yearCard07",
+      "rich-text#descCard07"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard07":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/logo-core.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard07":{
+    "props":{
+      "text": "2019"
+    }
+  },
+  "rich-text#descCard07":{
+    "props":{
+      "text":"nova cultura, novo posicionamento, rebrand, novo escritório.\n \n aquisição **IDS**",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card08":{
+    "children":["image#logoCard08",
+      "rich-text#yearCard08",
+      "rich-text#descCard08"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard08":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/timeline-iclick.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard08":{
+    "props":{
+      "text": "2020"
+    }
+  },
+  "rich-text#descCard08":{
+    "props":{
+      "text":"aquisição da Click QI, agência do interior de sp focada em soluções smb nas áreas de tecnologia e marketing. \n \n **bruno cury:** novo sócio",
+      "blockClass": "descCard"
+    }
+  },
+  "flex-layout.col#card09":{
+    "children":["image#logoCard09",
+      "rich-text#yearCard09",
+      "rich-text#descCard09"
+    ],
+    "props":{
+      "blockClass": "containerCard"
+    }
+  },
+  "image#logoCard09":{
+    "props":{
+      "src":"https://www.corebiz.ag/wp-content/uploads/2021/02/timeline-europa-1.png",
+      "blockClass": "imageCard"
+    }
+  },
+  "rich-text#yearCard09":{
+    "props":{
+      "text": "2021"
+    }
+  },
+  "rich-text#descCard09":{
+    "props":{
+      "text":"expansão europeia com início da corebiz espanha",
+      "blockClass": "descCard"
+    }
+  }
+  }

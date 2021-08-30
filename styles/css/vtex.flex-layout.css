@@ -1,5 +1,5 @@
-.flexRowContent {
-    position: fixed;
+.flexRowContent--header {
+    position: relative;
     z-index: 1;
     /*background-color:black;*/
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent);
@@ -8,4 +8,51 @@
 .flexCol {
     position: center;
     /*background-color:black;*/
+}
+
+.flexRow--banner-home {
+    background-color: #000;
+}
+
+/* === WHO WE ARE === */
+
+.flexColChild--containerCard {
+    height: 10rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexRow--vision {
+    background-image: url(https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg);
+    width: 51rem;
+    background-size: 62rem;
+    background-repeat: no-repeat;
+    padding: 5.5rem 0rem;
+    height: 41rem;
+    position: absolute;
+    z-index: 2;
+}
+.flexColChild--visionContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0rem;
+}
+.flexRow--values {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 5.5rem;
+    width: 72%;
+    height: 40rem;
+    z-index: 1;
+    left: -26rem;
+}
+.flexCol--valuesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 0rem;
+    margin-left: 25rem;
+    padding: 7rem 7rem;
 }

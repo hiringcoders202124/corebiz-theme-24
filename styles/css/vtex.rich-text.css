@@ -9,7 +9,7 @@
     text-transform: lowercase;
 }
 
-.paragraph--title {
+.paragraph--title-about-us {
     padding: 0;
     box-sizing: border-box;
     font-size: 6rem;
@@ -35,4 +35,101 @@
 
 .container--title {
     margin-top: 13rem;
+}
+
+/* === WHO WE ARE === */
+
+.container--title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+.paragraph--title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0rem;
+    font-family: sans-serif;
+    color: #000;
+}
+.wrapper--title {
+    margin: 0rem;
+}
+.container--subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    margin-bottom: 6rem;
+}
+.paragraph--subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0rem;
+    color: #666;
+    font-family: sans-serif;
+}
+.wrapper--subtitle {
+    margin: 0rem;
+}
+.container--clickSeeMore {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0rem;
+}
+.paragraph--clickSeeMore {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    padding: 0 35px;
+    position: relative;
+    color: #3385f1;
+    float: right;
+    margin: 0rem;
+}
+.wrapper--descCard {
+    max-width: 26rem;
+    height: 9rem;
+    padding: 0 0.5rem;
+}
+.paragraph--descCard {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+.container--title {
+    padding: 0rem;
+}
+.paragraph--visionTitle {
+    font-family: sans-serif;
+    font-size: 3.3rem;
+    color: #f1c233;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+.container--desc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 0rem;
+    max-width: 58rem;
+}
+.paragraph--desc {
+    font-size: 3rem;
+    color: white;
+}
+.paragraph--valuesTitle {
+    font-family: sans-serif;
+    font-size: 3.3rem;
+    color: #f1c233;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+.listItem--valuesDesc {
+    font-size: 3rem;
+    color: black;
+}
+.listItem--valuesDesc {
+    list-style-type: none;
 }

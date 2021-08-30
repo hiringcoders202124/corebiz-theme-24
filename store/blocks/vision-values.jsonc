@@ -1,0 +1,55 @@
+{
+    "store.custom#vision-values": {
+      "blocks": ["flex-layout.row#vision",
+        "flex-layout.row#values"
+      ]
+    },
+    "flex-layout.row#vision":{
+      "children":["flex-layout.col#visionContainer"],
+      "props":{
+        "blockClass": "vision"
+      }  
+    },
+    "flex-layout.col#visionContainer":{
+      "children":["rich-text#visionTitle", "rich-text#visionDesc"],
+      "props":{
+        "blockClass": "visionContainer"
+      }
+    },
+    "rich-text#visionTitle":{
+      "props":{
+        "text": "vision",
+        "blockClass": "visionTitle"
+      }
+    },
+    "rich-text#visionDesc":{
+      "props":{
+        "text": "To be the largest company of \n experience, technology and \n marketing for commerce in \n Latin America.",
+        "blockClass": "desc"
+      }
+    },
+    "flex-layout.row#values":{
+      "children":["flex-layout.col#valuesContainer"],
+      "props":{
+        "blockClass": "values"
+      }    
+    },
+    "flex-layout.col#valuesContainer":{
+      "children":["rich-text#valuesTitle", "rich-text#valuesDesc"],
+      "props":{
+        "blockClass": "valuesContainer"
+      }
+    },
+    "rich-text#valuesTitle":{
+      "props":{
+        "text": "values",
+        "blockClass": "valuesTitle"
+      }
+    },
+    "rich-text#valuesDesc":{
+      "props":{
+        "text": "- .determination \n- .innovationv \n- .courage \n- .agility \n- .collaboration",
+        "blockClass": "valuesDesc"
+      }
+    }
+  }

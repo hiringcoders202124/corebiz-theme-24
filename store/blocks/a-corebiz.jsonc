@@ -1,24 +1,27 @@
 {
     "store.custom#a-corebiz": {
         "blocks": [
-            "store.custom#about-us",
-            "flex-layout.row#about-us",
-            "flex-layout.col#img",
+            "flex-layout.row#about-us"
+        ]
+    },
+    "flex-layout.row#about-us": {
+        "children": [
             "flex-layout.col#text-about-us",
+            "flex-layout.col#img" 
+        ],
+        "props": {
+            "blockClass": "banner-home"
+        }
+    },
+    "flex-layout.col#img": {
+        "children": [
             "image#banner-home"
         ]
     },
-    "store.custom#about-us": {
-        "blocks": ["flex-layout.row#about-us"]
-    },
-    "flex-layout.row#about-us": {
-        "children": ["flex-layout.col#text-about-us", "flex-layout.col#img" ]
-    },
-    "flex-layout.col#img": {
-        "children": ["image#banner-home" ]
-    },
     "flex-layout.col#text-about-us": {
-        "children": ["rich-text#title-about-us", "rich-text#about-us"],
+        "children": [
+            "rich-text#title-about-us", "rich-text#about-us"
+        ],
         "props": {
         "blockclass": "textColumn",
         "preventVerticalStretch": true
@@ -27,7 +30,7 @@
     "rich-text#title-about-us": {
         "props": {
         "text": " a corebiz",
-        "blockClass": "title"
+        "blockClass": "title-about-us"
         }
     },"rich-text#about-us": {
         "props": {
