@@ -1,16 +1,24 @@
 {
   "store.home": { 
     "blocks": [
-      "store.custom#a-corebiz",
-      "store.custom#who-we-are",
-      "store.custom#vision-values",
-      // BLOCO DO ALEX,
-      "store.custom#worldwide"
-      // BLOCO DO HENRIQUE
-      // BLOCO DA TAMARA
+      "flex-layout.row#about-us", // SESSÃO A COREBIZ
+      "rich-text#title", // INÍCIO SESSÃO WHO WE ARE
+      "rich-text#subtitle",
+      //"flex-layout.row#seeMore",
+      "flex-layout.row#historyCard", 
+      "flex-layout.row#vision", // INÍCIO SESSÃO VISION & VALUES"
+      "flex-layout.row#values", 
+      // INSERIR BLOCO DO ALEX,
+      "flex-layout.row#image-mundo", // INÍCIO SESSÃO WORLDWIDE
+      "flex-layout.row#texto-worldwide",
+      "flex-layout.row#enderecos-paises",
+      // INSERIR BLOCO DO HENRIQUE
+      "flex-layout.row#texto-numbers", // INÍCIO SESSÃO NUMBERS
+      "flex-layout.row#texto-visao",
+      "flex-layout.row#dados", 
+      "flex-layout.row#image-mundo-black" 
       // FORM DA TAMARA
     ]
   }
    //inicio do bloco menu
-  
 }

@@ -1,0 +1,122 @@
+{
+  "store.custom#numbers": {
+    "blocks": [
+      "flex-layout.row#image-mundo-black",
+      "flex-layout.row#texto-numbers",
+      "flex-layout.row#texto-visao",
+      "flex-layout.row#dados"
+
+    ],
+    "parent": {
+      "header": "header#vazio"
+    }
+  },
+
+  "flex-layout.row#image-mundo-black": { /* LINHA COM IMAGEM MAPA PRETO */
+    "children": ["image#mundo-black"],
+    "props": {
+      "blockClass": "image-mundo",
+      "fullWidth": true,
+      "preventVerticalStrech": true
+    }
+  },
+
+  "image#mundo-black": {
+    "props": {
+      "blockClass": "mundo",
+      "width": "100%",
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/map-our-numbers.png"
+    }
+  },
+
+  "flex-layout.row#texto-numbers": { /* LINHA TÍTULO */
+    "children": ["rich-text#texto-numbers"],
+    "props": {
+      "blockClass": "texto-worldwide"
+    }
+  },
+  "rich-text#texto-numbers": {
+    "props": {
+      "blockClass": "texto-numbers",
+      "textPosition": "CENTER",
+      "text":"nossos números pelo mundo."   
+    }
+  },
+  "flex-layout.row#texto-visao": { /* LINHA SUBTÍTULO */
+    "children": ["rich-text#texto-visao"],
+    "props": {
+      "blockClass": "texto-visao"
+    }
+  },
+  "rich-text#texto-visao": {
+    "props": {
+      "blockClass": "texto-visao",
+      "textPosition": "CENTER",
+      "text":"levamos um pouco da nossa visão pelo mundo"   
+    }
+  },
+  "flex-layout.row#dados": { /* LINHA COM DADOS */
+    "children": ["flex-layout.col#340", "flex-layout.col#29",
+     "flex-layout.col#100"]
+  },
+  "flex-layout.col#340": { /* COLUNA 1 */
+    "children": ["rich-text#340", "rich-text#colaboradores"],
+    "props": {
+      "blockClass": "texto-340"
+    }
+  },
+  "rich-text#340": {
+    "props": {
+      "blockClass": "texto-340",
+      "textPosition": "CENTER",
+      "text":"+340"   
+    }
+  },
+  "rich-text#colaboradores": {
+    "props": {
+      "blockClass": "texto-colaboradores",
+      "textPosition": "CENTER",
+      "text":"colaboradores pelo mundo"   
+    }
+  },
+  "flex-layout.col#29": { /* COLUNA 2 */
+    "children": ["rich-text#29", "rich-text#paises"],
+    "props": {
+      "blockClass": "texto-340"
+    }
+  },
+  "rich-text#29": {
+    "props": {
+      "blockClass": "texto-340",
+      "textPosition": "CENTER",
+      "text":"29 países"   
+    }
+  },
+  "rich-text#paises": {
+    "props": {
+      "blockClass": "texto-colaboradores",
+      "textPosition": "CENTER",
+      "text":"com clientes fixos ou projetos"   
+    }
+  },
+  "flex-layout.col#100": { /* COLUNA 3 */
+    "children": ["rich-text#100", "rich-text#clientes"],
+    "props": {
+      "blockClass": "texto-340"
+    }
+  },
+  "rich-text#100": {
+    "props": {
+      "blockClass": "texto-340",
+      "textPosition": "CENTER",
+      "text":"+100"   
+    }
+  },
+  "rich-text#clientes": {
+    "props": {
+      "blockClass": "texto-colaboradores",
+      "textPosition": "CENTER",
+      "text":"clientes ativos em diversos países"   
+    }
+  }
+}

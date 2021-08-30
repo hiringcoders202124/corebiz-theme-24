@@ -1,156 +1,217 @@
 .heading {
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 6rem;
-    max-width: 50rem;
-    color: #fff;
-    font-family: "Circular Std Medium", sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 6rem;
+  max-width: 50rem;
+  color: #fff;
+  font-family: "Circular Std Medium", sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
 }
 
 .paragraph--title-about-us {
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 6rem;
-    max-width: 50rem;
-    color: #fff;
-    font-family: "Circular Std Medium", sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    line-height: 0.8;
-    margin: 0 0 3rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 6rem;
+  max-width: 50rem;
+  color: #fff;
+  font-family: "Circular Std Medium", sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 0.8;
+  margin: 0 0 3rem;
 }
 .paragraph--about {
-    padding-left: 100px;
-    margin: 0;
-    box-sizing: border-box;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color: #fff;
+  padding-left: 100px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #fff;
 }
 
 .container--title {
-    margin-top: 13rem;
+  margin-top: 13rem;
 }
 
 /* === WHO WE ARE === */
 
 .container--title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 1.5rem;
-    padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
 }
 .paragraph--title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin: 0rem;
-    font-family: sans-serif;
-    color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0rem;
+  font-family: sans-serif;
+  color: #000;
 }
 .wrapper--title {
-    margin: 0rem;
+  margin: 0rem;
 }
 .container--subtitle {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 0 1rem;
-    margin-bottom: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 1rem;
+  margin-bottom: 6rem;
 }
 .paragraph--subtitle {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0rem;
-    color: #666;
-    font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0rem;
+  color: #666;
+  font-family: sans-serif;
 }
 .wrapper--subtitle {
-    margin: 0rem;
+  margin: 0rem;
 }
 .container--clickSeeMore {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0rem;
 }
 .paragraph--clickSeeMore {
-    font-family: sans-serif;
-    font-size: 1.4rem;
-    padding: 0 35px;
-    position: relative;
-    color: #3385f1;
-    float: right;
-    margin: 0rem;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  padding: 0 35px;
+  position: relative;
+  color: #3385f1;
+  float: right;
+  margin: 0rem;
 }
 .wrapper--descCard {
-    max-width: 26rem;
-    height: 9rem;
-    padding: 0 0.5rem;
+  max-width: 26rem;
+  height: 9rem;
+  padding: 0 0.5rem;
 }
 .paragraph--descCard {
-    font-size: 0.8rem;
-    font-family: sans-serif;
+  font-size: 0.8rem;
+  font-family: sans-serif;
 }
 .container--title {
-    padding: 0rem;
+  padding: 0rem;
 }
 .paragraph--visionTitle {
-    font-family: sans-serif;
-    font-size: 3.3rem;
-    color: #f1c233;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    margin-top: 2.5rem;
+  font-family: sans-serif;
+  font-size: 3.3rem;
+  color: #f1c233;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
 }
 .container--desc {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
-    margin-right: 0rem;
-    max-width: 58rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 0rem;
+  max-width: 58rem;
 }
 .paragraph--desc {
-    font-size: 3rem;
-    color: white;
+  font-size: 3rem;
+  color: white;
 }
 .paragraph--valuesTitle {
-    font-family: sans-serif;
-    font-size: 3.3rem;
-    color: #f1c233;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    margin-top: 2.5rem;
+  font-family: sans-serif;
+  font-size: 3.3rem;
+  color: #f1c233;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
 }
 .listItem--valuesDesc {
-    font-size: 3rem;
-    color: black;
+  font-size: 3rem;
+  color: black;
 }
 .listItem--valuesDesc {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* ===== WORLDWIDE ===== */
 
 .paragraph--texto-worldwide {
-    /* TEXTO COREBIZ WORLDWIDE */
-    font-size: 3rem;
-    color: #000;
+  /* TEXTO COREBIZ WORLDWIDE */
+  font-size: 3rem;
+  color: #000;
 }
 .heading--texto-paises {
-    color: #000;
-    font-size: 1.2rem;
+  color: #000;
+  font-size: 1.2rem;
 }
 .paragraph--texto-paises {
-    color: #000;
-    font-size: 0.9rem;
+  color: #000;
+  font-size: 0.9rem;
 }
 .link--texto-paises {
-    color: #000;
+  color: #000;
+}
+
+/* ===== NUMBER ====== */
+
+.container--texto-numbers {
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+  /* margin-top: 30px;
+  position: absolute; */
+}
+
+.container--texto-visao {
+  background: rgba(0, 0, 0, 0);
+  z-index: 2;
+  /* margin-top: 200px;
+    position: absolute; */
+}
+
+.paragraph {
+  font-family: CircularStd, sans-serif;
+}
+.paragraph--texto-numbers {
+  max-width: 25rem;
+  font-family: CircularStd, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  /* color: #fff; */
+}
+
+.paragraph--texto-visao {
+  margin: 2.1rem auto auto;
+  max-width: 15rem;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 1rem;
+  font-weight: 1;
+  margin-bottom: 40px;
+  /* color: #fff; */
+}
+
+.paragraph--texto-340 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: #f1c233;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+
+.paragraph--texto-colaboradores {
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  max-width: 15rem;
+  margin-top: 0px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  /* color: #fff; */
 }
 
 /* ===== FOOTER =====*/
@@ -158,25 +219,25 @@
 /* === DESKTOP === */
 
 .heading--texto-footer {
-    /* TEXTO COM OS NOMES DOS PAISES */
-    color: #fff;
+  /* TEXTO COM OS NOMES DOS PAISES */
+  color: #fff;
 }
 
 .paragraph--texto-footer {
-    /* TEXTO COM OS ENDEREÇOS DOS ESCRITORIOS */
-    color: #fff;
-    font-family: "Circular Std Medium", sans-serif;
-    font-size: 0.7rem;
+  /* TEXTO COM OS ENDEREÇOS DOS ESCRITORIOS */
+  color: #fff;
+  font-family: "Circular Std Medium", sans-serif;
+  font-size: 0.7rem;
 }
 
 .heading--texto-seguir {
-    /* TEXTO SIGA A GENTE */
-    color: #fff;
+  /* TEXTO SIGA A GENTE */
+  color: #fff;
 }
 
 .paragraph--texto-direitos {
-    /* TEXTO DIREITOS RESERVADOS*/
-    width: 100%;
-    color: #fff;
-    font-size: 0.9rem;
+  /* TEXTO DIREITOS RESERVADOS*/
+  width: 100%;
+  color: #fff;
+  font-size: 0.9rem;
 }

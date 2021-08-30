@@ -192,5 +192,11 @@
         "text": "Es"
       }
     }
-  }//fim do bloco de menu idioma
+  },//fim do bloco de menu idioma
+  "header#vazio": {
+    "blocks":[
+      
+    ]
+
+  }
 }
