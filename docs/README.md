@@ -23,11 +23,11 @@ O desafio proposto consiste em desenvolver uma loja dentro do VTEX IO replicando
 * Checkout
   * ![Alt text](/../screenshots/checkout.png?raw=true "Optional Title")
 * Exemplo Requisição API AWS
-  * ![Alt text](/../screenshots/api-aws.png?raw=true "Optional Title")l Title")
+  * ![Alt text](/../screenshots/api-aws.png?raw=true "Optional Title")
 
 ## Link da Loja
 
-* Link aqui
+* https://frontend--hiringcoders202124.myvtex.com/
 
 ## Tecnologias Utilizadas
 
