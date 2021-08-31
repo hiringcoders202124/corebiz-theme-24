@@ -39,12 +39,12 @@
 /* ===== A COREBIZ ===== */
 
 .container--aboutTitle {
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 .paragraph--aboutTitle {
   padding: 0;
   box-sizing: border-box;
-  font-size: 6rem;
+  font-size: 5.5rem;
   max-width: 50rem;
   color: #fff;
   font-family: Circular Std Medium, sans-serif;
@@ -52,16 +52,17 @@
   text-transform: lowercase;
   line-height: 0.8;
   margin: 0 0 3rem;
+  margin-left: 100px;
 }
 
 .paragraph--aboutDesc {
-  margin-left: 50px;
+  margin-left: 150px;
   margin-top: 0;
   width: 75%;
-  max-width: 28.5rem;
+  max-width: 18rem;
   line-height: 1.4;
   margin-bottom: 3rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -73,6 +74,7 @@
   justify-content: flex-start;
   margin-bottom: 1.5rem;
   padding: 0 1rem;
+  margin-top: 0rem;
 }
 .paragraph--title {
   font-size: 3rem;
@@ -143,8 +145,9 @@
   max-width: 58rem;
 }
 .paragraph--desc {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
+  line-height: 120%;
 }
 .paragraph--valuesTitle {
   font-family: sans-serif;
@@ -160,6 +163,11 @@
 }
 .listItem--valuesDesc {
   list-style-type: none;
+  font-family: "CircularStd";
+}
+
+.list--valuesDesc {
+  font-size: "CircularStd", sans-serif;
 }
 
 /* ===== WORLDWIDE ===== */
@@ -253,6 +261,7 @@
 .heading--texto-footer {
   /* TEXTO COM OS NOMES DOS PAISES */
   color: #fff;
+  font-size: 0.7rem;
 }
 
 .paragraph--texto-footer {
@@ -265,6 +274,7 @@
 .heading--texto-seguir {
   /* TEXTO SIGA A GENTE */
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .paragraph--texto-direitos {

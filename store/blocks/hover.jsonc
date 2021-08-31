@@ -1,0 +1,30 @@
+{
+  "store.custom#hover": {
+    "blocks": [
+      "flex-layout.row#hover"
+    ]
+  },
+  "flex-layout.row#hover": {
+    "children": ["flex-layout.col#hoverContainer"],
+    "props": {
+      "blockClass": "hover"
+    }
+  },
+  "flex-layout.col#hoverContainer": {
+    "children": [ "iframe.dynamic-src" ],
+    "props": {
+      "blockClass": "hoverContainer"
+    }
+  },
+  "iframe.dynamic-src":{
+    "props": {
+      "dynamicSrc": "https://framework-corebizteam.netlify.app/",
+      "width": "1920",
+      "height": "1000",
+      "title": "exampleStaticPageName iframe wrapper for {account}",
+      "allow": "geolocation"
+    }
+  }
+
+
+}

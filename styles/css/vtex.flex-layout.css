@@ -76,7 +76,7 @@
 .flexColChild--visionContainer {
   display: flex;
   flex-direction: row;
-  margin-left: 0rem;
+  margin-left: 100px;
 }
 .flexRow--values {
   display: flex;
@@ -131,13 +131,17 @@
   height: 60%;
 }
 
+.flexColChild--worldwideContainer {
+  margin-left: 100px;
+}
+
 /* ==== FOOTER ==== */
 
 /* === DESKTOP === */
 
 .flexRow--white-block {
   /* FLEXROW CONTENDO A PARTE BRANCA E A IMAGEM DA LUMINARIA*/
-  background: #fff;
+  background: #f5f5f5;
   max-width: 99.8%;
 }
 
