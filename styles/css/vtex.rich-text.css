@@ -163,6 +163,7 @@
 }
 .listItem--valuesDesc {
   list-style-type: none;
+  font-family: "CircularStd";
 }
 
 .list--valuesDesc {

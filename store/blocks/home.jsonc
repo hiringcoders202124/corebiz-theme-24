@@ -5,6 +5,7 @@
       "flex-layout.row#who-we-are", // WHO WE ARE
       "flex-layout.row#vision-and-values",  
       // INSERIR BLOCO DO ALEX,
+      "flex-layout.row#hover",
       "flex-layout.row#worldwide",
       // INSERIR BLOCO DO HENRIQUE
       "flex-layout.row#numbers", // NUMBERS
