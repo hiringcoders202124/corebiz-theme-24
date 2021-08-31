@@ -13,17 +13,17 @@ O desafio proposto consiste em desenvolver uma loja dentro do VTEX IO replicando
 ## Capturas de tela da nossa loja
 
 * Footer
-Alt text
+  * ![Alt text](/../screenshots/footer.png?raw=true "Optional Title")
 * Header
-Alt text
+  * ![Alt text](/../screenshots/header.png?raw=true "Optional Title")
 * Form de Leads
-Alt text
+  * ![Alt text](/../screenshots/form.png?raw=true "Optional Title")
 * Tela de produtos
-Alt text
+  * ![Alt text](/../screenshots/produtos.png?raw=true "Optional Title")
 * Checkout
-Alt text
+  * ![Alt text](/../screenshots/checkout.png?raw=true "Optional Title")
 * Exemplo Requisição API AWS
-Alt text
+  * ![Alt text](/../screenshots/api-aws.png?raw=true "Optional Title")l Title")
 
 ## Link da Loja
 
