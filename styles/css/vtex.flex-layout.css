@@ -76,7 +76,7 @@
 .flexColChild--visionContainer {
   display: flex;
   flex-direction: row;
-  margin-left: 0rem;
+  margin-left: 100px;
 }
 .flexRow--values {
   display: flex;
@@ -129,6 +129,10 @@
   top: 38%;
   left: 10%;
   height: 60%;
+}
+
+.flexColChild--worldwideContainer {
+  margin-left: 100px;
 }
 
 /* ==== FOOTER ==== */
