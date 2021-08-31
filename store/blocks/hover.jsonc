@@ -20,7 +20,7 @@
     "props": {
       "dynamicSrc": "https://framework-corebizteam.netlify.app/",
       "width": "1920",
-      "height": "1000",
+      "height": "700",
       "title": "exampleStaticPageName iframe wrapper for {account}",
       "allow": "geolocation"
     }

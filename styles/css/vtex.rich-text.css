@@ -283,3 +283,31 @@
   color: #fff;
   font-size: 0.9rem;
 }
+
+/* NA MÍDIA */
+
+.container--naMidiaTitle {
+  padding-left: 10%;
+  font-size: 3rem;
+  color: white;
+}
+.container--naMidiaSubTitle {
+  padding-left: 18%;
+  /* font-size: 3rem; */
+  color: white;
+  margin-bottom: 4rem;
+}
+.wrapper--subTitleEpoca {
+  margin-right: 8rem;
+  color: white;
+}
+.wrapper--subTitleMsn {
+  margin-right: 8rem;
+  color: white;
+}
+.paragraph--dataEpoca {
+  color: white;
+}
+.paragraph--dataMsn {
+  color: white;
+}
