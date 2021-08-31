@@ -98,6 +98,8 @@
   padding: 7rem 7rem;
 }
 
+/* ====== HOVER ======== */
+
 /* ==== WORLDWIDE ==== */
 .flexRow--worldwide {
   background-image: url("https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/worldwide.png");
@@ -284,4 +286,47 @@
   z-index: 2;
   /* margin-top: 300px;
   position: absolute; */
+}
+
+/* NA MIDIA  */
+
+.flexRow--naMidiaContainer {
+  background-image: url(https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-media.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flexRow--naMidiaCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexCol--naMidiaCardsEpoca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50%;
+  margin-right: 10%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  background-color: #ff6e60;
+}
+.flexCol--naMidiaCardsMsn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5%;
+  margin-right: 49%;
+  background-color: #91a7d0;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.flexColChild--naMidiaCardsEpoca {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexColChild--naMidiaCardsMsn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
